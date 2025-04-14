@@ -72,12 +72,12 @@ function handleFileList(files: FileList) {
       </v-row>
     </v-card-text>
 
-    <v-card-action>
+    <v-card-actions>
       <v-spacer />
       <v-btn variant="text" @click="$refs.uploader.click()">
         {{ btnText }}
       </v-btn>
-    </v-card-action>
+    </v-card-actions>
 
     <input
       name="file"
