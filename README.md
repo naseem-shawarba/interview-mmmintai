@@ -1,6 +1,20 @@
 # interview-mmmintai
 
-This template should help get you started developing with Vue 3 in Vite.
+mmmint.ai codeing challenge. Run the application and solve the two coding challenges.
+
+1. 📋 Dropfield + Image Gallery
+2. 📋 Visualize a Damage Process
+
+Please make sure to adhere to state of the art development principles.
+Use the [Git Flow](https://www.gitkraken.com/learn/git/git-flow) branching strategy.
+
+Next steps:
+
+- [Fork the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+- Solve the challenges (between 1 - 4 hours)
+- Cleanup the code for review
+- Create a PR with changes on your main fork (do not commit to main)
+- Send the PR to us
 
 ## Recommended IDE Setup
 
@@ -35,7 +49,7 @@ npm run build
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
-npm run test:unit
+npm run test
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
