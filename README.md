@@ -31,6 +31,11 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 
 ## Project Setup
 
+> ⚠️ **Minimum Node.js version required:** `v16.17.0`  
+> Please make sure you're using Node.js `v16.17.0` or newer to avoid issues with ESM imports (e.g. `node:fs/promises`).  
+> We recommend using [nvm](https://github.com/nvm-sh/nvm) to manage Node versions.
+
+
 ```sh
 npm install
 ```
