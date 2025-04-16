@@ -7,8 +7,9 @@ import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 
 import DamageProcessStepDetails from '../DamageProcessStepDetails.vue'
+import { ProcessItem } from '../../lib/process-item.dt'
 
-const step = {
+const step: ProcessItem = {
   type: 'CALL_RECEIVED',
   title: 'Schadenmeldung telefonisch eingegangen',
   timestamp: '2025-04-10T08:45:00Z',
@@ -19,7 +20,7 @@ const step = {
   referenceId: 'CALL-001',
   amount: 0,
 }
-const stepWithoutOptional = {
+const stepWithoutOptional: ProcessItem = {
   ...step,
   comment: undefined,
   referenceId: undefined,

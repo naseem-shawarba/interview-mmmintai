@@ -8,8 +8,9 @@ import * as directives from 'vuetify/directives'
 
 import DamageProcessSteps from '../DamageProcessSteps.vue'
 import DamageProcessStepDetails from '../DamageProcessStepDetails.vue'
+import { ProcessItem } from '../../lib/process-item.dt'
 
-const steps = [
+const steps: ProcessItem[] = [
   {
     type: 'CALL_RECEIVED',
     title: 'Schadenmeldung telefonisch eingegangen',
