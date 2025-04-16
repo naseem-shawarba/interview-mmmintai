@@ -8,7 +8,6 @@ import * as directives from 'vuetify/directives'
 
 import DamageProcessSteps from '../DamageProcessSteps.vue'
 import DamageProcessStepDetails from '../DamageProcessStepDetails.vue'
-import { json } from 'stream/consumers'
 
 const steps = [
   {
